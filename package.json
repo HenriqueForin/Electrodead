@@ -1,0 +1,37 @@
+{
+  "name": "electrodead-backend",
+  "version": "1.0.0",
+  "description": "Backend Node.js com Express e PostgreSQL para o sistema de gerenciamento da banda Electrodead.",
+  "main": "src/server.js",
+  "scripts": {
+    "build:frontend": "npm --prefix frontend run build",
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "db:migrate": "node src/db/migrate.js",
+    "admin:create": "node scripts/create-admin.js",
+    "check": "node scripts/check-syntax.js"
+  },
+  "keywords": [
+    "express",
+    "postgresql",
+    "banda",
+    "electrodead"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,14 @@
+node_modules
+frontend/node_modules
+frontend/dist
+.git
+.env
+.npm-cache
+.npm-temp
+.tools
+bin
+docx_render
+termo_render
+*.docx
+*.pdf
+npm-debug.log*

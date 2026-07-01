@@ -7,6 +7,7 @@
     "build:frontend": "npm --prefix frontend run build",
     "dev": "nodemon src/server.js",
     "start": "node src/server.js",
+    "db:wait": "node scripts/wait-for-db.js",
     "db:migrate": "node src/db/migrate.js",
     "admin:create": "node scripts/create-admin.js",
     "check": "node scripts/check-syntax.js"

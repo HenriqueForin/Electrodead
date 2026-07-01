@@ -7,3 +7,9 @@ dist/
 .tools/
 .npm-cache/
 bin/
+docx_render/
+termo_render/
+Documentacao_Final_Electrodead.docx
+Termo_de_Abertura_Electrodead.docx
+scripts/build_documentacao_final.py
+scripts/build_termo_abertura.py

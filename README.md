@@ -31,7 +31,14 @@ Navegador -> localhost:3000 -> frontend/nginx -> /api -> backend:3000 -> postgre
 
 ## 3. Como executar
 
-Na raiz do projeto:
+Clone o repositório e entre na pasta do projeto:
+
+```bash
+git clone https://github.com/HenriqueForin/Electrodead.git
+cd Electrodead
+```
+
+Na raiz do projeto, execute:
 
 ```bash
 docker compose up --build
